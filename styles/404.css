@@ -1,0 +1,110 @@
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .main {
+        top: 50px;
+    }
+
+    .bx {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .logo-404 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .main {
+        top: 60px;
+    }
+    
+    h1 {
+        font-size: 75px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .logo-404 {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+/* Desktop */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.content-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    margin-top: 0;
+    animation: bounce-twice 1s ease-in-out;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    animation: bounce-twice 1s ease-in-out;
+    margin-top: 0;
+}
+
+.logo-404 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 0px;
+}
+
+.logo-404 {
+    animation: bounce-twice 1s ease-in-out;
+}
+
+@keyframes bounce-twice {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
