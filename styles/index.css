@@ -75,3 +75,42 @@ body {
   cursor: pointer;
   animation: bounce 0.5s;
 }
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    padding-top: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background-color: rgb(33, 32, 38);
+    animation: none;
+}
+
+.footer-p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+    animation: none;
+}
+
+.footer-a {
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    animation: none;
+}
+
+.footer-a:hover {
+    color: rgb(94, 94, 103);
+    cursor: pointer;
+    animation: bounce 0.5s;
+}
