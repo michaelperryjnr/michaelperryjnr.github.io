@@ -85,8 +85,8 @@ body {
     color: white;
     height: 40px;
     padding-top: 3px;
-    position: absolute;
-    bottom: -10px;
+    position: fixed;
+    bottom: 0;
     left: 0;
     right: 0;
     background-color: rgb(33, 32, 38);
