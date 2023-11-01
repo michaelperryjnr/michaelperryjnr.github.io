@@ -12,8 +12,8 @@
         font-size: 60px;
     }
     
-    p {
-        font-size: 16px;
+    p{
+        font-size: 14px;
     }
     
     .logo-404 {
@@ -21,7 +21,7 @@
         height: 100px;
     }
 
-    span{
+    span.span-foot{
         display: none;
     }
 }
@@ -61,7 +61,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -96,6 +96,10 @@ p {
     animation: bounce-twice 1s ease-in-out;
 }
 
+.mobile-404 {
+    display: none;
+}
+
 @keyframes bounce-twice {
     0% {
         transform: translateY(0);
@@ -113,3 +117,4 @@ p {
         transform: translateY(0);
     }
 }
+
